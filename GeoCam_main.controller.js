@@ -1,4 +1,4 @@
-sap.ui.controller("Ztestgeocam.view.main", {
+sap.ui.controller("********.view.main", {
 oView : null,
     onInit : function() {
         oView = this.getView();
