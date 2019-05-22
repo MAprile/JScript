@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Controller) {
 	"use strict";
 
-	return Controller.extend("com.BMSItaliaOCR_Test.controller.Main", {
+	return Controller.extend("*****OCR_Test.controller.Main", {
 		onInit: function () {
 			this.oFileUpload = this.getView().byId("fileUploader");
 			this.oImage = this.getView().byId("imageId");
@@ -48,9 +48,9 @@ sap.ui.define([
 			var sHeaders = {
 				"content-type": "multipart/form-data; boundary=---011000010111000001101001",
 				"Accept": "application/json",
-				"APIKey": "hwHX5ZF4EGlUhw8Ln3ZEpISPUiWeigHb"
+				"APIKey": "************************************" //API KEY obtaiined w/ google FireBase
 			};
-			//sending request
+			//sending requestBase
 			//API endpoint for API sandbox 
 			var oData = {
 				files: image,
